@@ -39,7 +39,7 @@ public class Answer {
 				return arr[arr.length-3]*product2;
 			}
 				
-			product3=Math.max(product2*arr[arr.length-1], arr[0]*arr[1]*arr[arr.length-1]);
+			product3=Math.max(product2*arr[arr.length-3], arr[0]*arr[1]*arr[arr.length-1]);
 			return product3;
 		}
 			
@@ -61,7 +61,7 @@ public class Answer {
 		for(int i=0;i<array.length;i++)
 			arr[i]=Integer.parseInt(array[i]);
 		if(array.length==3){
-			return arr[0]*arr[1]*arr[3];
+			return arr[0]*arr[1]*arr[2];
 		}
 		return maxProduct3(arr);
 	

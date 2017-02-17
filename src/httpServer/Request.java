@@ -74,9 +74,9 @@ public class Request {
 			parseParams(paramString);
 		}
 		
-		System.out.println(paramString);
+/*		System.out.println(paramString);
 		System.out.println(url);
-		
+		*/
 	}
 	
 	public String getUrl(){
